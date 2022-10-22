@@ -1,0 +1,15 @@
+MessageServiceClient/.vs
+MessageServiceServer/.vs
+MessageServiceClient/MessageServiceClient/obj
+MessageServiceClient/MessageServiceClient/bin*
+MessageServiceServer/MessageServiceServer/bin
+MessageServiceServer/MessageServiceServer/obj
+MessageServiceServer/Service/obj
+MessageServiceServer/Service/bin
+MessageServiceServer/Logic/obj
+MessageServiceServer/Logic/bin
+MessageServiceServer/Domain/obj
+MessageServiceServer/Domain/bin
+
+
+
