@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel Orientation="Horizontal">
-            <StackPanel Background="LightGray" Width="325" Margin="40">
-                
-            </StackPanel>
-            <StackPanel Background="LightGray" Width="325" Margin="40">
+        <Label Content="Usuarios conectados" HorizontalAlignment="Left" Margin="45,27,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Chat" HorizontalAlignment="Left" Margin="391,27,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <ListBox x:Name="ListBox_Usuarios" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="45,58,430,29"/>
+        <TextBox x:Name="TextBox_Mensaje" HorizontalAlignment="Left" Margin="391,383,0,0" TextWrapping="Wrap" Text="Escriba su mensaje" VerticalAlignment="Top" Width="295" FontSize="15"/>
+        <Button Content="Enviar" HorizontalAlignment="Left" Margin="704,382,0,0" VerticalAlignment="Top" FontSize="15" Width="70" Click="Button_EnviarMensaje_Click"/>
+        <TextBox Height="306" HorizontalAlignment="Left" Margin="391,58,0,0" Name="chatBox" VerticalAlignment="Top" Width="383" IsReadOnly="True" VerticalScrollBarVisibility="Visible">
 
-            </StackPanel>
-        </StackPanel>
+        </TextBox>
     </Grid>
 </Window>
     

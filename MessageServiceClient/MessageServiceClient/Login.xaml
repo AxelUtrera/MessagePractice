@@ -8,11 +8,11 @@
         Title="Login" Height="450" Width="800">
     <Grid>
         <Label Content="Nombre de usuario" HorizontalAlignment="Left" Margin="180,107,0,0" VerticalAlignment="Top" FontSize="15"/>
-        <TextBox HorizontalAlignment="Left" Margin="180,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" FontSize="15"/>
+        <TextBox x:Name="TextBox_Usuario" HorizontalAlignment="Left" Margin="180,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" FontSize="15"/>
         <Label Content="Contraseña" HorizontalAlignment="Left" Margin="180,196,0,0" VerticalAlignment="Top" FontSize="15"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="180,226,0,0" VerticalAlignment="Top" Width="427" FontSize="15
+        <PasswordBox x:Name="PasswordBox_Contrasena" HorizontalAlignment="Left" Margin="180,226,0,0" VerticalAlignment="Top" Width="427" FontSize="15
 "/>
-        <Button Content="Iniciar Sesión" HorizontalAlignment="Left" Margin="183,283,0,0" VerticalAlignment="Top" Width="424" FontSize="15"/>
+        <Button Content="Iniciar Sesión" HorizontalAlignment="Left" Margin="183,283,0,0" VerticalAlignment="Top" Width="424" FontSize="15" Click="Button_IniciarSesion_Click"/>
 
     </Grid>
 </Window>
